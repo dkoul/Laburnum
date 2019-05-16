@@ -12,16 +12,16 @@ username and password are required if your app has a login form which redirects 
 username and password CSS locators are required
 healthLocator CSS is required.
 
-
+If you want to healthcheck an API call, leave the healthLocator blank.
 
 
 
 See this example:
 
 
--DseleniumHostURL=http://standalone-chrome-selenium-grid.1d35.starter-us-east-1.openshiftapps.com/wd/hub
--DappURL=https://access.qa.redhat.com/support/cases/#/case/02336336
--Dusername=rhn-support-dkoul
+-DseleniumHostURL=http://localhost:444/wd/hub
+-DappURL=https://www.npmjs.com/products
+-Dusername=abc
 -Dpassword=*****
 -DusernameLocator=input#username
 -DpasswordLocator=input#password
