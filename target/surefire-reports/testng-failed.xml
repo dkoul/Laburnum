@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AllTests]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="tests.SSOTests">
+        <methods>
+          <include name="testOpenCasePage" invocation-numbers="3"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SSOTests -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

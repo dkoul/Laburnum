@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225216" started-at="2017-08-21T05:35:51Z" finished-at="2017-08-21T05:39:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="225216" started-at="2017-08-21T05:35:51Z" finished-at="2017-08-21T05:39:36Z">
+      <class name="tests.SSOTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SSOTests@2a5ca609]" name="setup" is-config="true" duration-ms="2605" started-at="2017-08-21T11:05:51Z" finished-at="2017-08-21T11:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOpenListCasePage(java.lang.String)[pri:0, instance:tests.SSOTests@2a5ca609]" name="testOpenListCasePage" duration-ms="54562" started-at="2017-08-21T11:05:54Z" data-provider="Authentication" finished-at="2017-08-21T11:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phk@jndata.dk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenListCasePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SSOTests@2a5ca609]" name="teardown" is-config="true" duration-ms="97" started-at="2017-08-21T11:06:48Z" finished-at="2017-08-21T11:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SSOTests@2a5ca609]" name="setup" is-config="true" duration-ms="2155" started-at="2017-08-21T11:06:48Z" finished-at="2017-08-21T11:06:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOpenListCasePage(java.lang.String)[pri:0, instance:tests.SSOTests@2a5ca609]" name="testOpenListCasePage" duration-ms="51528" started-at="2017-08-21T11:06:50Z" data-provider="Authentication" finished-at="2017-08-21T11:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[brian.macleod@oit.gatech.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenListCasePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SSOTests@2a5ca609]" name="teardown" is-config="true" duration-ms="98" started-at="2017-08-21T11:07:42Z" finished-at="2017-08-21T11:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SSOTests@2a5ca609]" name="setup" is-config="true" duration-ms="2280" started-at="2017-08-21T11:07:42Z" finished-at="2017-08-21T11:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOpenListCasePage(java.lang.String)[pri:0, instance:tests.SSOTests@2a5ca609]" name="testOpenListCasePage" duration-ms="55049" started-at="2017-08-21T11:07:44Z" data-provider="Authentication" finished-at="2017-08-21T11:08:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[caf_bec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenListCasePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SSOTests@2a5ca609]" name="teardown" is-config="true" duration-ms="85" started-at="2017-08-21T11:08:39Z" finished-at="2017-08-21T11:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SSOTests@2a5ca609]" name="setup" is-config="true" duration-ms="1906" started-at="2017-08-21T11:08:39Z" finished-at="2017-08-21T11:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOpenListCasePage(java.lang.String)[pri:0, instance:tests.SSOTests@2a5ca609]" name="testOpenListCasePage" duration-ms="54761" started-at="2017-08-21T11:08:41Z" data-provider="Authentication" finished-at="2017-08-21T11:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rhn-support-prchavan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenListCasePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.SSOTests@2a5ca609]" name="teardown" is-config="true" duration-ms="73" started-at="2017-08-21T11:09:36Z" finished-at="2017-08-21T11:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SSOTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
