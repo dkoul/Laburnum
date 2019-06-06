@@ -29,7 +29,6 @@ public class BaseTest {
 
 	}
 
-	@AfterMethod
 	public void teardown() {
 		webDriver.get().quit();
 	}

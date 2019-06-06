@@ -42,6 +42,7 @@ public class Monitor extends BaseTest {
 			}
 			homepage.checkHealthLocatorPresent();
 			System.out.println("Matched health locator successfully");
+			this.teardown();
 			break;
 
 		case "API":
