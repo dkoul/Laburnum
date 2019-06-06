@@ -28,8 +28,9 @@ public class HomePage extends Page {
 		
 	}
 	
-	public void checkHealthLocatorPresent() {
-		waitUntillClickable(By.cssSelector(Env.getHealthLocator()));
+	public boolean checkHealthLocatorPresent() {
+		boolean result = waitUntillClickable(By.cssSelector(Env.getHealthLocator()));
+		return result;
 	}
 
 }

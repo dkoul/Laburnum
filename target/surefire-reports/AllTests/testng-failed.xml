@@ -3,13 +3,11 @@
 <suite verbose="0" name="Failed suite [AllTests]">
   <test name="Regression suite 1(failed)">
     <classes>
-      <class name="tests.SSOTests">
+      <class name="tests.Monitor">
         <methods>
-          <include name="testOpenCasePage" invocation-numbers="3"/>
-          <include name="teardown"/>
-          <include name="setup"/>
+          <include name="verifyHealthLocator"/>
         </methods>
-      </class> <!-- tests.SSOTests -->
+      </class> <!-- tests.Monitor -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

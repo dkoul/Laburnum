@@ -1,6 +1,5 @@
 package tests;
 
-import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -32,7 +31,7 @@ public class Monitor extends BaseTest {
 		case "UI":
 			this.createDriver("chrome");
 			WebDriver driver = this.getWebDriver();
-			System.out.println("Chrome driver instance created successfully");
+			System.out.println("Driver instance created successfully");
 			homepage = new HomePage(driver);
 			homepage.visit();
 			if (Env.getUsername() != "") {
@@ -40,8 +39,7 @@ public class Monitor extends BaseTest {
 				homepage.signIn();
 
 			}
-			homepage.checkHealthLocatorPresent();
-			System.out.println("Matched health locator successfully");
+			Assert.assertEquals(true, homepage.checkHealthLocatorPresent());
 			this.teardown();
 			break;
 
